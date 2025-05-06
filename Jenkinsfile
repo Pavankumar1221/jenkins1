@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone GitHub Repo') {
             steps {
-                git 'https://github.com/Pavankumar1221/jenkins1.git'
+                echo 'Code already checked out by Jenkins.'
             }
         }
 
